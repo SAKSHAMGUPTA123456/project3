@@ -20,7 +20,19 @@ let t=document.getElementById('tip')
 
 t.innerHTML=cart.map((curr)=>
 `<div class="flex" style="border:2px solid white; height:250px" >
-    <img src="${curr.url}" style="width: 150px;">
+    <img src="${curr.url}" style="width: 120px;">
+    <div>
+    <h2 style="color:blue">${curr.information}</h2>
+    <h3 style="color:blue">${curr.details}</h3>
+    <a href="${curr.size}"><h1 style="color:green">GO TO SHOP SECTION</h1></a>
+    </div>
+    </div>
+`)
+let ts=document.getElementById('tips')
+
+ts.innerHTML=cart.map((curr)=>
+`<div class="flex" style="border:2px solid white; height:250px" >
+    <img src="${curr.url}" style="width: 120px;">
     <div>
     <h2 style="color:blue">${curr.information}</h2>
     <h3 style="color:blue">${curr.details}</h3>
