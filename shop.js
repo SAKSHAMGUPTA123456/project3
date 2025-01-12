@@ -241,7 +241,6 @@ qo.append(text4)
       qo.style="justify-center"
       qo.style.alignItems="center"
       qo.style.textAlign="center"
-      qo.style.border = "2px solid white";
       qo.style.padding = "20px"; // Add some padding
       qo.style.margin = "10px";
       qo.style.border="2px solid white"
